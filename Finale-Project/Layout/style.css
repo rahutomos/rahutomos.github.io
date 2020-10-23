@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-image: url(../image/BG_Polos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.nav-bar {
+    position: relative;
+    background-color: #d4ba3e;
+    height: 125px;
+
+}
+.nav-font {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    top: 35px;
+    margin: 0 20;
+    position: absolute;
+}
+.nick-name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    margin: auto;
+    
+}
