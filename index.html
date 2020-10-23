@@ -7,20 +7,14 @@
     <title>Nasehat Mbah Jenggot</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <img src="./mbah-jenggot.png" alt="Mbah Jenggot" width="150px">
-        <a class="nav-font" href="#">Nasehat Mbah Jenggot</a>
-    </nav>
-    
-<br><br><br><br><br><br><br><br>
-    <form class="nick-name">
-        <label for="nickname">Tuliskan Nama Lengkapmu:</label><br>
-        <input type="text" id="nickname" name="nickname" value="" size="35"><br>
-        <button id="nasehat">Nasehatnya Mbah</button>
-    </form>
-    <div>
-        <h2 id="randomNasehat"> </h2>
+    <div class="">
+        <img src="./BG-baruu" alt="mbah-jenggot" class="center">
     </div>
+    <form id="input-name" action="nasehat.html" class="full-name">
+        <label>TULISKAN NAMA<br>LENGKAPMU:</label><br>
+        <input type="text" id="full-name" name="nickname" value="" size="35" minlength="3" required><br>
+        <input type="button" onclick="myFunction()" value="Nasehatnya Mbah">
+    </form>
     <script src="./nasehat.js"></script>
 </body>
 </html>

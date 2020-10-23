@@ -24,7 +24,8 @@ let nasehat = [
 let klikNasehat = document.getElementById("nasehat")
 let nasehatMbah = document.getElementById(randomNasehat)
 
-klikNasehat.addEventListener("click", function() {
-    let randomNasehat = Math.floor(Math.random() * nasehat.length)
-    nasehatMbah.innerText = nasehat[randomNasehat]
-})
+// klikNasehat.addEventListener("click", function() {
+//     let randomNasehat = Math.floor(Math.random() * nasehat.length)
+//     nasehatMbah.innerText = nasehat[randomNasehat]
+// }) 
+console.log(tes)
