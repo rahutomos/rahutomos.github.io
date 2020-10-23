@@ -22,8 +22,9 @@ let nasehat = [
     "Kamu sebagai jomblo jangan pernah merasa malu. Jomblo bukan berarti gak laku, tapi emang nggak ada yang mau."
 ];
 let klikNasehat = document.getElementById("nasehat")
+let nasehatMbah = document.getElementById(randomNasehat)
 
 klikNasehat.addEventListener("click", function() {
     let randomNasehat = Math.floor(Math.random() * nasehat.length)
-    console.log(randomNasehat)
+    nasehatMbah.innerText = nasehat[randomNasehat]
 })
