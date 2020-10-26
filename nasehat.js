@@ -16,7 +16,7 @@ let nasehat = [
     "Jadilah pribadi yang menantang masa depan, bukan pengecut yang aman di zona nyaman.",
     "Pengusaha itu bukan orang yang pintar tetapi mereka pintar mencari orang pintar.",
     "Siapapun yang berusaha menjatuhkanmu memang sudah berada di bawahmu.",
-    "Wanita cantik bukan jaminan untuk kehidupan bahagia dan menyenagkan, apalagi yang jelek.",
+    "Wanita cantik bukan jaminan untuk kehidupan bahagia dan menyenangkan, apalagi yang jelek.",
     "Sahabat sejati nggak saling menilai. Melainkan, mereka menilai orang lain bersama-sama.",
     "Iman itu kaya tato. Baru punya dikit, diunjuk-unjukin mulu.",
     "Kamu sebagai jomblo jangan pernah merasa malu. Jomblo bukan berarti gak laku, tapi emang nggak ada yang mau."
@@ -24,8 +24,10 @@ let nasehat = [
 let klikNasehat = document.getElementById("nasehat")
 let nasehatMbah = document.getElementById(randomNasehat)
 
-// klikNasehat.addEventListener("click", function() {
-//     let randomNasehat = Math.floor(Math.random() * nasehat.length)
-//     nasehatMbah.innerText = nasehat[randomNasehat]
-// }) 
-console.log(tes)
+klikNasehat.addEventListener("click", function() {
+    let randomNasehat = Math.floor(Math.random() * nasehat.length)
+    // console.log(randomNasehat)
+    nasehatMbah.innerText = nasehat[randomNasehat]
+}) 
+// let randomNasehat = Math.floor(Math.random() * nasehat.length)
+// console.log(nasehat[randomNasehat])

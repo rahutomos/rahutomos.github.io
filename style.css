@@ -27,6 +27,30 @@ body {
     text-align: center;
     
 }
+.box {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+}
+.button-back {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    color: black;
+    position: absolute;
+    top: 70%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+}
 /* .nav-bar {
     position: relative;
     background-color: #d4ba3e;
